@@ -20,6 +20,7 @@
 ## Package
 
 - Python 3.7
+- Matlab 2020
 - Tensorflow 2.4.0
 - NumPy 1.19.5
 
