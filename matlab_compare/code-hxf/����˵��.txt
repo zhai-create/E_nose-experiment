@@ -1,0 +1,80 @@
+1.bestmap: permute labels of L2 to match L1 as good as possible
+2.TensorLPP: Tensor(张量) Locality Preserving Projections
+3.constructKernel.m：为基于核的流形算法准备样本点关系图
+4.constructW.m：准备样本点关系图
+5.SRKDApredict: Spectral Regression Kernel Discriminant Analysis Prediction. SRKDApredict use SRKDA as a    classifier. It used the nearest center rule in the SRKDA subspace for classification.
+6.CSRKDAtrain.m：对应于SRKDApredict的训练函数
+7.Eigenmap：特征映射算法
+8.EUDIST2：Efficiently Compute the Euclidean Distance Matrix by Exploring the Matlab matrix operations.
+9.GenSpatialSmoothRegularizer：图像空间平滑矩阵
+10.GenTwoNoisyCircle
+11.GETARGS：Process parameter name/value pairs 
+12.GNMF：Graph regularized Non-negative Matrix Factorization(正规化非负矩阵分解图)
+13.GNMF_KL：使用散度公式的GNMF
+14. GNMF_KL_Multi：局部保持的GNMF_KL
+15.GNMF_Multi.m：局部保持的GNMF
+16.GraphSC：Graph regularized sparse coding algorithms
+17.HUNGARIAN：Solve the Assignment problem(分配问题) using the Hungarian method.
+18.initFactor：compute the an optimal constant factor for the initialization，为初始化计算最优的常数因子
+19.IsoP: Isometric Projection等角投影
+20.KDA: Kernel Discriminant Analysis 核判别分析
+21.KGE: Kernel Graph Embedding核图嵌入
+22.KLPP：核LPP算法
+23.KPCA：核PCA算法
+24.KSR：Kernel Spectral Regression核谱回归
+25.KSR_caller.m：核谱回归调用函数
+26.LaplacianScore：计算不同特征的拉普拉斯得分
+27.LapPLSI：Laplacian Probabilistic Latent Semantic Indexing/Alnalysis (LapPLSI) using generalized EM使用一般特征映射算法进行的拉普拉斯概率潜在语义索引
+28.LARS：The LARS algorithm for performing LAR or LASSO
+29.LCCF：Locally Consistant Concept Factorization (LCCF)局部保持概念分解
+30.LCCF_Multi.m：同上
+31.LCGMM：Local Consistent Gaussian Mixture Model局部保持高斯混合模型
+32.LDA：线性判别
+33.learn_basis：Learning basis using Lagrange dual (with basis normalization)
+   This code solves the following problem:
+     minimize_B   0.5*||X - B*S||^2
+     subject to   ||B(:,j)||_2 <= l2norm, forall j=1...size(S,1)
+34.learn_coefficients：The feature-sign search algorithm L1-regularized least squares problem solver
+   This code solves the following problem:
+    minimize_s 0.5*(||xi-B*si||^2 + alpha*si'si + 2*alpha*si(sigma(Lijsj)) + gamma*||si||_1 
+    X : data matrix
+    B : basis matrix
+    Sinit : initial coefficient matrix 
+35.LeastR：Least Squares Loss with the L1-norm Regularization
+36.LGE：线性图映射
+37.litekmeans：LITEKMEANS K-means clustering..k聚类
+38.LPP:
+39.LSC:Landmark-based Spectral Clustering..地标图聚类
+40.LSDA: Locality Sensitive Discriminant Analysis..局部敏感聚类分析
+41.LSQR：solves  Ax = b  or  min ||b - Ax||_2  if damp = 0,or   min || (b)  -  (  A   )x ||   otherwise.|| (0)     (damp I)  ||2
+42.LTM：Locally-consistent Topic Modeling (LTM) using EM
+43.MAED: Manifold Adaptive Experimental Design
+44.MAED: Manifold Adaptive Experimental Design with Sequential Optimization
+45.MCFS: Feature Section for Multi Class/Cluster data
+46.MMP: Maximum Margin Projection最大边缘投影
+47.MutualInfo
+48.mySVD：Accelerated singular value decomposition快速奇异值分解
+49.NormalizeFea：标准化fea
+50.NPE: Neighborhood Preserving Embedding(llede的线性化版本)
+51.OLGE: Orthogonal Linear Graph Embedding
+52.OLPP.m：正交LPP
+53.PCA
+54.SCC：Sparse Concept Coding稀疏概念编码
+55.SCCtest.m
+56.SDA: Semi-supervised Discriminant Analysis半监督线性判别
+57.sll_opts：Options for Sparse Learning Library
+58.SparseCodingwithBasis: Sparse Coding with the Provided Basis 
+59.SR: Spectral Regression
+60.SR_caller.m
+61.SRDApredict：Spectral Regression Discriminant Analysis Prediction
+62.SRDAtest.m
+63.SRDAtrain.m
+64.SRKDApredict: Spectral Regression Kernel Discriminant Analysis Prediction
+65.SRKDAtest.m
+66.SRKDAtrain.m
+67.TensorLGE.m：张量LGE
+68.tfidf
+69.UKSRtest: Unsupervised Kernel Spectral Regression Testing非监督核谱回归
+70.UKSRtrain.m
+71.USRtest.m：非监督谱回归
+72.USRtrain.m
